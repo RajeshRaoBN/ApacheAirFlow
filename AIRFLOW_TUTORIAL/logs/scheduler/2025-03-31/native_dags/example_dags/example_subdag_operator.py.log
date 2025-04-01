@@ -1,0 +1,22 @@
+[2025-03-31T17:22:33.098+1100] {processor.py:186} INFO - Started process (PID=35736) to work on /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-03-31T17:22:33.101+1100] {processor.py:914} INFO - Processing file /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-03-31T17:22:33.103+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:33.103+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-03-31T17:22:33.392+1100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-03-31T17:22:34.982+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:34.981+1100] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2025-03-31T17:22:34.994+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:34.994+1100] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2025-03-31T17:22:35.005+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.004+1100] {override.py:1912} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2025-03-31T17:22:35.020+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.020+1100] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_subdag_operator
+[2025-03-31T17:22:35.030+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.030+1100] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_subdag_operator
+[2025-03-31T17:22:35.039+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.039+1100] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_subdag_operator
+[2025-03-31T17:22:35.048+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.048+1100] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_subdag_operator
+[2025-03-31T17:22:35.049+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.049+1100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-03-31T17:22:35.067+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.067+1100] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator
+[2025-03-31T17:22:35.068+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.068+1100] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2025-03-31T17:22:35.069+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.069+1100] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2025-03-31T17:22:35.081+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.080+1100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-03-31T17:22:35.081+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.081+1100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-03-31T17:22:35.082+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.082+1100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-03-31T17:22:35.090+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.090+1100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-03-31T17:22:35.097+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.097+1100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-03-31T17:22:35.100+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:22:35.100+1100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-03-31T17:22:35.116+1100] {processor.py:208} INFO - Processing /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 2.026 seconds

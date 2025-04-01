@@ -1,0 +1,15 @@
+[2025-03-31T17:24:10.444+1100] {processor.py:186} INFO - Started process (PID=37339) to work on /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-03-31T17:24:10.446+1100] {processor.py:914} INFO - Processing file /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-03-31T17:24:10.447+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:24:10.447+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-03-31T17:24:10.659+1100] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-03-31T17:24:11.028+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:24:11.027+1100] {override.py:1912} INFO - Created Permission View: can read on DAG:example_nested_branch_dag
+[2025-03-31T17:24:11.052+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:24:11.051+1100] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_nested_branch_dag
+[2025-03-31T17:24:11.067+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:24:11.067+1100] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_nested_branch_dag
+[2025-03-31T17:24:11.084+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:24:11.084+1100] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_nested_branch_dag
+[2025-03-31T17:24:11.098+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:24:11.098+1100] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_nested_branch_dag
+[2025-03-31T17:24:11.110+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:24:11.109+1100] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_nested_branch_dag
+[2025-03-31T17:24:11.121+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:24:11.120+1100] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_nested_branch_dag
+[2025-03-31T17:24:11.122+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:24:11.121+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T17:24:11.143+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:24:11.143+1100] {dag.py:3262} INFO - Creating ORM DAG for example_nested_branch_dag
+[2025-03-31T17:24:11.159+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:24:11.158+1100] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-03-30 00:00:00+00:00, run_after=2025-03-31 00:00:00+00:00
+[2025-03-31T17:24:11.184+1100] {processor.py:208} INFO - Processing /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.751 seconds

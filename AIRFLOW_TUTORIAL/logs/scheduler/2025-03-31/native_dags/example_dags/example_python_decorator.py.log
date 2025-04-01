@@ -1,0 +1,15 @@
+[2025-03-31T17:23:33.181+1100] {processor.py:186} INFO - Started process (PID=36906) to work on /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-03-31T17:23:33.183+1100] {processor.py:914} INFO - Processing file /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-03-31T17:23:33.185+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:33.184+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-03-31T17:23:33.365+1100] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-03-31T17:23:33.676+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:33.675+1100] {override.py:1912} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2025-03-31T17:23:33.692+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:33.692+1100] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2025-03-31T17:23:33.702+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:33.701+1100] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2025-03-31T17:23:33.720+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:33.720+1100] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_python_decorator
+[2025-03-31T17:23:33.733+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:33.732+1100] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_python_decorator
+[2025-03-31T17:23:33.745+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:33.745+1100] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_python_decorator
+[2025-03-31T17:23:33.759+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:33.759+1100] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_python_decorator
+[2025-03-31T17:23:33.759+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:33.759+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T17:23:33.776+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:33.776+1100] {dag.py:3262} INFO - Creating ORM DAG for example_python_decorator
+[2025-03-31T17:23:33.777+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:33.777+1100] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-03-31T17:23:33.799+1100] {processor.py:208} INFO - Processing /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.626 seconds

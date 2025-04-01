@@ -1,0 +1,15 @@
+[2025-03-31T17:23:13.480+1100] {processor.py:186} INFO - Started process (PID=36662) to work on /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-31T17:23:13.482+1100] {processor.py:914} INFO - Processing file /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-31T17:23:13.484+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:13.483+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-31T17:23:13.577+1100] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-31T17:23:15.164+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:15.163+1100] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-03-31T17:23:15.177+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:15.177+1100] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-03-31T17:23:15.186+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:15.185+1100] {override.py:1912} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-03-31T17:23:15.198+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:15.198+1100] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2025-03-31T17:23:15.208+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:15.207+1100] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2025-03-31T17:23:15.217+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:15.217+1100] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2025-03-31T17:23:15.227+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:15.227+1100] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2025-03-31T17:23:15.228+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:15.228+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T17:23:15.245+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:15.244+1100] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2025-03-31T17:23:15.245+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:15.245+1100] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-31T17:23:15.267+1100] {processor.py:208} INFO - Processing /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 1.793 seconds

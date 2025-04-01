@@ -1,0 +1,15 @@
+[2025-03-31T17:23:52.712+1100] {processor.py:186} INFO - Started process (PID=37137) to work on /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-31T17:23:52.714+1100] {processor.py:914} INFO - Processing file /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-31T17:23:52.716+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:52.715+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-31T17:23:52.892+1100] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-31T17:23:53.286+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:53.285+1100] {override.py:1912} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2025-03-31T17:23:53.303+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:53.302+1100] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2025-03-31T17:23:53.317+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:53.317+1100] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2025-03-31T17:23:53.333+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:53.333+1100] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_params_trigger_ui
+[2025-03-31T17:23:53.345+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:53.344+1100] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_params_trigger_ui
+[2025-03-31T17:23:53.357+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:53.356+1100] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_params_trigger_ui
+[2025-03-31T17:23:53.366+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:53.366+1100] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_params_trigger_ui
+[2025-03-31T17:23:53.367+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:53.367+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T17:23:53.389+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:53.389+1100] {dag.py:3262} INFO - Creating ORM DAG for example_params_trigger_ui
+[2025-03-31T17:23:53.390+1100] {logging_mixin.py:190} INFO - [2025-03-31T17:23:53.390+1100] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-31T17:23:53.417+1100] {processor.py:208} INFO - Processing /Users/rajeshnarayanarao/Documents/GitHub/ApacheAirFlow/AIRFLOW_TUTORIAL/py_env/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.715 seconds
